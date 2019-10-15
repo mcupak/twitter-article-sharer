@@ -1,0 +1,7 @@
+language: java
+dist: bionic
+sudo: false
+jdk:
+  - openjdk11
+script:
+  - ./gradlew test
